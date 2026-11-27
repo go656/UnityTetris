@@ -34,8 +34,7 @@ Unity / C# で実装したテトリスです。盤面の描画に Tilemap を使
 
 ## 動かし方
 
-1. Unity で 2D プロジェクトを作成する
-   - ※ 開発時の Unity バージョンはこのリポジトリには記録されていません。分かる範囲でここに追記してください: `[要記入: Unity xxxx.x]`
+1. Unity **2022.3.0f1** で 2D プロジェクトを作成する（開発時のバージョン）
 2. パッケージとして TextMeshPro と Input System を用意する
    （`Tetris.cs` は `TMPro` と `UnityEngine.InputSystem` を使用）
 3. シーンに Tilemap を 4 つ（`info` / `falling` / `fallen` / `walls`）と、各テトリミノ用の Tile、スコア表示用の `Text` を配置する
